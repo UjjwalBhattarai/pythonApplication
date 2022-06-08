@@ -80,7 +80,7 @@ def testgettimezone():
     rec = database.get_timezone("8.8.8.8")
     assert rec == None
 
-def testgetnetspeed():
+def testgetnetspeed(): #needs change
     database = IP2Location.IP2Location(ipv4database)
     rec = database.get_netspeed("8.8.8.8")
     assert rec == None
