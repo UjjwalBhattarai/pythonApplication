@@ -1,4 +1,4 @@
-import sys
+import sys #importing modules
 import struct
 import socket
 import re
