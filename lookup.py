@@ -1,4 +1,4 @@
-import os, IP2Location, sys, ipaddress 
+import os, IP2Location, sys, ipaddress
 
 # database = IP2Location.IP2Location(os.path.join("data", "IPV6-COUNTRY.BIN"), "SHARED_MEMORY")
 database = IP2Location.IP2Location(os.path.join("data", "IPV6-COUNTRY.BIN"))
