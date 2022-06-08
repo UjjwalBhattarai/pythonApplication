@@ -2,7 +2,7 @@
 
 import pytest
 
-import IP2Location
+import IP2Location #importing 
 
 apikey = "demo"
 package = "WS24"
